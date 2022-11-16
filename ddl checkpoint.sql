@@ -24,6 +24,6 @@ create table Orders (
 );
 
 
-alter table product add Category VARCHAR2(20);
+alter table product add column Category VARCHAR2(20);
 
-alter table ORDERS add Order_Date DATE default (current_date);
+alter table ORDERS add column Order_Date DATE default (current_date);
